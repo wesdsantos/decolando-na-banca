@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decolando na banca</title>
+    <style>
+        body {
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        .screem-one {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url(./assets/Hero_En_Aeropuerto.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .screem-one .box {
+            padding: 15px;
+            display: flex;
+            width: 100vw;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .screem-one .shadow {
+            width: 97%;
+            padding: 15px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.32);
+
+        }
+
+        .screem-one h1 {
+            color: #ffffff;
+            font-size: 60px;
+            font-weight: 800;
+            margin-block: 0px 20px;
+            font-family: "Helvetica", sans-serif;
+        }
+
+        .screem-one span {
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 30px;
+            font-family: "Helvetica", Sans-serif;
+        }
+
+        .screem-one button {
+            border: 0;
+            outline: none;
+            margin-top: 30px;
+            font-size: 18px;
+            color: #ffffff;
+            font-weight: 500;
+            padding: 20px 40px;
+            background-color: #4bc5d1;
+            transition: background-color .5s;
+            font-family: "Roboto", sans-serif;
+            border-radius: 50px 50px 50px 50px;
+        }
+
+        .screem-one button:hover {
+            cursor: pointer;
+            background-color: #4984cc;
+        }
+
+        .screem-one .box i {
+            margin-left: 20px;
+        }
+
+        .nav-bar {
+            background: #7a7a7a;
+            display: flex;
+            justify-content: space-evenly;
+            width: 100vw;
+        }
+
+
+        .nav-bar .menu {
+            font-size: 19px;
+            font-weight: 600;
+            color: #fff;
+            padding: 15px 30px;
+            font-family: "Roboto", sans-serif;
+            transition: color 0.3s ease-in-out;
+            text-decoration: none;
+        }
+
+        .nav-bar .menu:hover {
+            color: #6ec1e4;
+            cursor: pointer;
+        }
+
+        .nav-bar .menu i {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="screem-one">
+        <div class="box">
+            <div class="shadow">
+                <h1>Decolando na banca</h1>
+                <span> Aviação, amor além das nuvens </span>
+            </div>
+            <button>Conheça nosso site
+                <i class="fa-solid fa-plane"></i>
+            </button>
+        </div>
+    </div>
+    <div class="nav-bar">
+        <a href="" class="menu">
+            <i class="fa-solid fa-house-chimney"></i>
+            Home
+        </a>
+        <a href="" class="menu">
+            <i class="fa-solid fa-users"></i>
+            Quem somos
+        </a>
+        <a href="" class="menu">
+            <i class="fa-solid fa-link"></i>
+            Links úteis 
+        </a>
+        <a href="" class="menu">
+            <i class="fa-solid fa-address-book"></i>
+            Área do aluno 
+        </a>
+        <a href="" class="menu">
+            <i class="fa-solid fa-mobile-alt"></i>
+            Fale conosco
+        </a>
+    </div>
+</body>
+
+<script src="https://kit.fontawesome.com/fd8e240689.js" crossorigin="anonymous"></script>
+
+</html>
